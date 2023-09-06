@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './Form.css'
 function Form() {
   return (
     <div>
         <form className='container'>
-            <h2>Contact Us Form</h2>
+            <h2 className='heading'>Contact Us Form</h2>
             <div className='input-field'>
                 <input type='text' required/>
                 <label>Full Name</label>
@@ -17,7 +17,7 @@ function Form() {
                 <input type='text' required/>
                 <label>Phone No</label>
             </div>
-            <div className='text-area-field'>
+            <div className='textarea-field'>
                 <textarea type='text' required rows='3'></textarea>
                 <label>Message</label>
             </div>
